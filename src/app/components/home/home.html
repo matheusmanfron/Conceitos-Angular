@@ -1,0 +1,12 @@
+<p>Olá {{ nome }}</p>
+
+<button (click)="clicarBotao()">Clique</button>
+
+@if(deveMostrarTitulo){
+    <h1>Meu Titulo</h1>
+} @else if( nome == "Matheus"){
+    <h1>Meu titulo para Matheus</h1>
+} @else{
+    <h1>Não foi verdadeiro</h1>
+}
+
