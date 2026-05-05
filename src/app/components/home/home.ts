@@ -18,5 +18,6 @@ export class Home {
   @Input() nome = '';
 
   idButton = "button";
+
   deveMostrarTitulo = false;
 }

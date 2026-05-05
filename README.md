@@ -84,6 +84,17 @@ http://localhost:4200/
 
 ---
 
+---
+
+# Explicando as funcionalidades
+
+* A interpolação {{}} foi feita para exibir os dados de nome, Olá, {{nome}}
+* O input foi adicionado para alterar o nome
+* O if/else foi aplicado da seguinte forma, se a variável, deveMostrarTitulo for true:
+    exibe a mensagem, Meu Titulo, se for false, mas o nome for igual a Matheus,
+    exibe a mensagem, Meu titulo para Matheus, se não, a mensagem Não deve mostrar titulo aparece
+* O Output foi utilizado para dar ação ao elemente button quando fosse clicado
+
 ## 📚 Aprendizados
 
 Durante o desenvolvimento deste projeto, foram aplicados conceitos como:
