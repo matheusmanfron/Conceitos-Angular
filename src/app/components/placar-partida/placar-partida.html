@@ -1,0 +1,24 @@
+<div class="placar-card">
+    <h2>{{ nomeTimeA | uppercase}} vs {{ nomeTimeB | uppercase}}</h2>
+
+    <div class="placar">
+        <span>{{ placarA }}</span>
+        <span>|</span>
+        <span>{{ placarB }}</span>
+    </div>
+
+    @if (!jogoFinalizado){
+        <div class="controles">
+            <button (click)="adicionarGolA()">Gol {{ nomeTimeA }}</button>
+            <button (click)="adicionarGolB()">Gol {{ nomeTimeB }}</button>
+        </div>
+
+        <button (click)="finalizarPartida()" class="btn-apitar">Apitar Final</button>
+    }
+
+    @if (jogoFinalizado){
+        <div class="resultado-final">
+            <h3>{{ mensagemFinal }}</h3>
+        </div>
+    }
+</div>

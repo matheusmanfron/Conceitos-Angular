@@ -1,0 +1,38 @@
+.placar-card {
+    background: #ffffff;
+    border: 2px solid #3498db;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(52, 152, 219, 0.2);
+}
+
+.placar {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #34495e;
+    margin: 20px 0;
+}
+
+.controles {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.controles button {
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-apitar {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 8px;
+    font-weight: bold;
+}
